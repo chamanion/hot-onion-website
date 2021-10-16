@@ -15,8 +15,7 @@ const Header = () => {
 
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
-
-                        <Link to="/cart"><i className="fas fa-shopping-cart shopping_cart"></i></Link>
+                       <Link to="/cart"><i className="fas fa-shopping-cart shopping_cart"></i></Link>
                         {user?.email && <Navbar.Text>
                             Signed in as: <a href="#login">{user.displayName}</a>
                         </Navbar.Text>}

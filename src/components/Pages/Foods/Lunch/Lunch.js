@@ -14,7 +14,7 @@ const Lunch = () => {
                 <Row lg={3} xs={1} className="g-4">
 
                     {
-                        foods.map(food => <Col
+                        foods.map(food => <Col id="card"
                             key={food.name}
                         >
                             <Card>

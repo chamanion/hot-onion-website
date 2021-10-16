@@ -20,7 +20,7 @@ const Footer = () => {
                                 <ul>
                                     <li><a href="#">About online food</a></li>
                                     <li><a href="#">Read our blog</a></li>
-                                    <li><a href="#">Sign uup to deliver</a></li>
+                                    <li><a href="#">Sign up to deliver</a></li>
                                     <li><a href="#">Add your restaurant</a></li>
                                 </ul>
                             </div>
@@ -40,7 +40,7 @@ const Footer = () => {
                 <div className="container text-start py-3">
                     <div className="row">
                         <div className="col-md-4">
-                            <small>&copy; 2021 shariful islam</small>
+                            <small>© 2021 — All Rights Reserved By Nipon chakma</small>
                         </div>
                         <div className="col-md-2"></div>
                         <div className="col-md-6">

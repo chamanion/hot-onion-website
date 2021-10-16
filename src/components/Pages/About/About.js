@@ -22,13 +22,13 @@ const About = () => {
                         </div>
                         <div>
                             <h5>Fast delivery</h5>
-                            <small>Keep your systems in sync with automated web hook based notifications each time link is paid and how we dream about our future</small><br />
+                            <small>Healthy meat-free recipes for meals & snacks. Share your creations too! Save Animal Lives. Discover Tasty Food.</small><br />
                             <a href="#">See more </a><button className="seemore_btn"><i class="fas fa-arrow-right"></i></button>
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4 g-4">
-                    <img className="img-fluid" src={img3} alt="" />
+                <div className="col-md-4 g-4 ">
+                    <img  className="img-fluid" id="img" src={img3} alt="" />
                     <div className="d-flex mt-3">
                         <div className="about_us">
                             <i className="far fa-bell"></i>
@@ -36,7 +36,7 @@ const About = () => {
                         </div>
                         <div>
                             <h5>A good auto responder</h5>
-                            <small>Keep your systems in sync with automated web hook based notifications each time link is paid and how we dream about our future</small><br />
+                            <small>Healthy meat-free recipes for meals & snacks. Share your creations too! Save Animal Lives. Discover Tasty Food.</small><br />
                             <a href="#">See more</a> <button className="seemore_btn"><i class="fas fa-arrow-right"></i></button>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ const About = () => {
                         </div>
                         <div>
                             <h5>Home delivery</h5>
-                            <small>Keep your systems in sync with automated web hook based notifications each time link is paid and how we dream about our future</small><br />
+                            <small>Healthy meat-free recipes for meals & snacks. Share your creations too! Save Animal Lives. Discover Tasty Food.</small><br />
                             <a href="#">See more </a><button className="seemore_btn"><i class="fas fa-arrow-right"></i></button>
                         </div>
                     </div>

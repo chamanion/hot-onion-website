@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
+import './Breakfast.css'
 
 const Breakfast = () => {
 
@@ -11,15 +12,15 @@ const Breakfast = () => {
     }, [])
 
     return (
-        <div id="breakfast">
+        <div id="breakfast" >
             <Container>
-                <Row lg={3} xs={1} className="g-4">
+                <Row  lg={3} xs={1} className="g-4">
 
                     {
-                        foods.map(food => <Col
+                        foods.map(food => <Col id="card"
                             key={food.name}
                         >
-                            <Card>
+                            <Card  >
                                 <Card.Img className="w-50 mx-auto" src={food.img} alt="" />
                                 <Card.Title>{food.name}</Card.Title>
                                 <small>{food.details.slice(0, 40)}</small>

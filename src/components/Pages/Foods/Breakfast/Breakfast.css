@@ -1,0 +1,13 @@
+#card :hover{
+    box-shadow: 4px 4px 7px gray;
+    border-radius: 10px;
+    border: 1px solid cyan;
+   
+}
+
+
+#img{
+height: 330px;
+width: 340px;
+ 
+}
